@@ -4,7 +4,7 @@
 }
 
 .landing-page {
-  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/2e07bc25-8b8f-4531-8e1f-7e5e33938793/f3c66605-353e-4e80-b540-eeea155de88d/HK-en-20240219-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("https://assets.nflxext.com/ffe/siteui/vlv3/2e07bc25-8b8f-4531-8e1f-7e5e33938793/f3c66605-353e-4e80-b540-eeea155de88d/HK-en-20240219-popsignuptwoweeks-perspective_alpha_website_large.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -26,7 +26,6 @@
   color: #e50914;
   font-weight: bold;
   font-size: 24px;
-  text-shadow: 2px 3px 5px black;
 }
 
 .right button {
