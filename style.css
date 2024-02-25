@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.landing-page {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/2e07bc25-8b8f-4531-8e1f-7e5e33938793/f3c66605-353e-4e80-b540-eeea155de88d/HK-en-20240219-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 90px;
+}
+
+.left {
+  color: #e50914;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.right button {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 8px;
+  font-size: 8px;
+  font-weight: bold;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background-color:#e50914;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1, .content p {
+  color: white;
+}
